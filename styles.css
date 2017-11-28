@@ -1,0 +1,74 @@
+/* Welcome to Ellen's Website Layout */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    font-family: 'Raleway', sans-serif;;
+	color:#2a3845;
+	margin:0;
+	padding:0;
+    height:100%;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#header {
+    color:white;
+    background:black;
+	text-align:center;
+}
+#icon {
+    display: block;
+    margin: 0;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+#banner {
+    padding-top:10px;
+    padding-bottom:40px;
+    height:500px;
+    background:#D9DAED;
+    
+}
+#logo {
+    display: block;
+    margin: 0 auto;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#about {
+    padding:10px;
+    background:white;
+    height:500px;
+    color:black;
+    text-align:center;
+    
+}
+#backgrnd {
+    padding:10px;
+    background:#474850;
+    height:500px;
+    color:#D9DAED;
+    text-align:center;
+}
+#projects {
+    padding:10px;
+    background:white;
+    height:500px;
+    padding-bottom:60px;  
+    text-align:center;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:20px;
+    height:60px; 
+    color:white;
+    background:black;
+    text-align:center;
+}
