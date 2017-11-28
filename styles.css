@@ -16,12 +16,25 @@ header {
 img {
     display: block;
     margin: 0 auto;
-    padding-top:5%;
+    padding-top:15%;
     padding-bottom:15%;
 }
 footer{
     color:white;
     background:black;
-	padding:1%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100px;
 	text-align:center;
 }
+/*
+footer {
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+*/
