@@ -1,41 +1,74 @@
 /* Welcome to Ellen's Website Layout */
 
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
-    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;;
 	color:#2a3845;
 	margin:0;
 	padding:0;
-	background:#D9DAED;
+    height:100%;
 }
-header {
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#header {
     color:white;
     background:black;
-	padding:1%;
 	text-align:center;
 }
-img {
+#icon {
+    display: block;
+    margin: 0;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+#banner {
+    padding-top:10px;
+    padding-bottom:40px;
+    height:500px;
+    background:#D9DAED;
+    
+}
+#logo {
     display: block;
     margin: 0 auto;
-    padding-top:15%;
-    padding-bottom:15%;
+    padding-top:10px;
+    padding-bottom:10px;
 }
-footer{
+#about {
+    padding:10px;
+    background:white;
+    height:500px;
+    color:black;
+    text-align:center;
+    
+}
+#backgrnd {
+    padding:10px;
+    background:#474850;
+    height:500px;
+    color:#D9DAED;
+    text-align:center;
+}
+#projects {
+    padding:10px;
+    background:white;
+    height:500px;
+    padding-bottom:60px;  
+    text-align:center;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:20px;
+    height:60px; 
     color:white;
     background:black;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height:100px;
-	text-align:center;
+    text-align:center;
 }
-/*
-footer {
-    background-color: orange;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    overflow:hidden;
-*/
