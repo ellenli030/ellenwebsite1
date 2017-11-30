@@ -31,7 +31,8 @@ body {
     padding-bottom:40px;
     height:500px;
     background:#D9DAED;
-    
+	background-image: url(bannerback1.jpg);
+	background-attachment: fixed;
 }
 #logo {
     display: block;
