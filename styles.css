@@ -4,10 +4,17 @@
 
 body {
     font-family: 'Raleway', sans-serif;;
+<<<<<<< HEAD
 	background-image: url(bannerback1.jpg);
 	background-attachment: fixed;
 	margin:0;
 	padding:0;
+=======
+    background-image: url(bannerback1.jpg);
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+>>>>>>> 079d2e70416e03976c1ff933e201c0738f7101a2
     color:#2a3845;
     margin:0;
     padding:0;
