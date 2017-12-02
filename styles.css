@@ -56,7 +56,7 @@ body {
     background:rgba(255, 255, 255, 0.85);
     height:auto;
     text-align:center;
-	color: black
+    color: black
 }
 
 .about_title{
@@ -75,24 +75,24 @@ body {
     font-weight: 400;
 }
 #picme {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 .fa {
-  padding: 20px;
-  width: 30px;
-  margin: 5px 2px;
-  border-radius: 50%;
+    padding: 20px;
+    width: 30px;
+    margin: 5px 2px;
+    border-radius: 50%;
 }
 .fa:hover {
     opacity: 0.7;
 }
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+    background: #007bb5;
+    color: white;
 }
 .fa-github {
-  background: grey;
-  color: white;
+    background: grey;
+    color: white;
 }
 
 /* background */
@@ -113,9 +113,9 @@ body {
 }
 /* footer */
 #footer {
-	height: auto;
+    height: auto;
     padding: 1.5em 0;
     background:#222222;
     text-align:center;
-	color:white;
+    color:white;
 }
