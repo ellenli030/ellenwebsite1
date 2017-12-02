@@ -4,16 +4,13 @@
 
 body {
     font-family: 'Raleway', sans-serif;;
-<<<<<<< HEAD
 	background-image: url(bannerback1.jpg);
 	background-attachment: fixed;
 	margin:0;
 	padding:0;
-=======
     color:#2a3845;
     margin:0;
     padding:0;
->>>>>>> 3837e11c3e823392dbc40231d163ba3a521bb124
     height:100%;
 }
 
@@ -21,7 +18,7 @@ body {
     min-height:100%;
     position:relative;
 }
-
+/* nav */
 #header {
     color:white;
     background:black;
@@ -33,31 +30,75 @@ body {
     padding-top:7px;
     padding-bottom:7px;
 }
+#icon:hover {
+    transform: scale(1.02, 1.02);
+    opacity: 0.9;
+}
+/* banner */
 #banner {
     padding-top:10px;
     padding-bottom:40px;
     height:500px;
-<<<<<<< HEAD
-=======
     background:#D9DAED;
     background-image: url(bannerback1.jpg);
     background-attachment: fixed;
->>>>>>> 3837e11c3e823392dbc40231d163ba3a521bb124
 }
 #logo {
     display: block;
     margin: 0 auto;
     padding-top:10px;
     padding-bottom:10px;
-
 }
+#logo:hover {
+    transform: scale(1.02, 1.02);
+    opacity: 1;
+}
+/* about */
 #about {
-    padding:10px;
+    padding:50px;
     background:rgba(255, 255, 255, 0.85);
-    height:500px;
-    color:black;
+    height:auto;
     text-align:center;
+	color: black
 }
+
+.about_title{
+    font-size: 4em;
+    text-align:center;
+    padding-top: 0.2em;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 500;
+}
+.about_subtitle{
+    font-size: 2em;
+    text-align:center;
+    padding-top: 0.2em;
+    margin: 0;
+    font-weight: 400;
+}
+#picme {
+  border-radius: 50%;
+}
+.fa {
+  padding: 20px;
+  width: 30px;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: grey;
+  color: white;
+}
+
+/* background */
 #backgrnd {
     padding:10px;
     background:rgba(0, 0, 0, 0.85);
@@ -65,6 +106,7 @@ body {
     color:#D9DAED;
     text-align:center;
 }
+/* projects */
 #projects {
     padding:10px;
     background:rgba(255, 255, 255, 0.85);
@@ -72,13 +114,11 @@ body {
     padding-bottom:60px;  
     text-align:center;
 }
+/* footer */
 #footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    padding-top:20px;
-    height:60px; 
-    color:white;
-    background:black;
+	height: auto;
+    padding: 1.5em 0;
+    background:#222222;
     text-align:center;
+	color:white;
 }
