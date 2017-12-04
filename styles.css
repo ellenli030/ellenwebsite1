@@ -10,7 +10,6 @@ body {
     padding:0;
     color:#2a3845;
     margin:0;
-    padding:0;
     height:100%;
 }
 
@@ -55,8 +54,8 @@ body {
     padding:50px;
     background:rgba(255, 255, 255, 0.85);
     height:auto;
-    text-align:center;
-    color: black
+    color: black;
+    text-align: center
 }
 
 .about_title{
@@ -101,7 +100,6 @@ body {
     background:rgba(0, 0, 0, 0.85);
     height:600px;
     color:#D9DAED;
-    text-align:center;
 }
 .smoltitle{
     font-size: 3em;
@@ -126,7 +124,6 @@ body {
     background:rgba(255, 255, 255, 0.85);
     height:400px;
     padding-bottom:60px;  
-    text-align:center;
 }
 .colpic{
     padding-left: 20px;
