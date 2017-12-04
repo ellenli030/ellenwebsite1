@@ -99,18 +99,41 @@ body {
 #backgrnd {
     padding:10px;
     background:rgba(0, 0, 0, 0.85);
-    height:500px;
+    height:600px;
     color:#D9DAED;
     text-align:center;
+}
+.smoltitle{
+    font-size: 3em;
+    text-align:center;
+    padding: 1em 800px 0.2em 300px;
+    margin: 0;
+    font-weight: 300;
+	width: 5%;
+}
+.column {
+    float: right;
+	padding: 5px;
+}
+.right {
+	text-align: left;
+	padding: 40px 100px 10px;
+    width: 800px;
 }
 /* projects */
 #projects {
     padding:10px;
     background:rgba(255, 255, 255, 0.85);
-    height:500px;
+    height:400px;
     padding-bottom:60px;  
     text-align:center;
 }
+.colpic{
+	padding-left: 20px;
+	width:20px;
+}
+
+
 /* footer */
 #footer {
     height: auto;
