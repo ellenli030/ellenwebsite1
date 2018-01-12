@@ -1,141 +1,194 @@
 /* Welcome to Ellen's Website Layout */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
 
 body {
-    font-family: 'Raleway', sans-serif;;
-    background-image: url(bannerback1.jpg);
-    background-attachment: fixed;
-    margin:0;
-    padding:0;
-    color:#2a3845;
-    margin:0;
-    height:100%;
+	width: 6500px; 
+	height: 100%;
+	position:absolute;
+	font-family: 'Raleway';
+      	margin: 0;
+      	padding: 0;
+	background-color: white;
+	overflow-y:hidden;
+} 
+
+.panel {
+	width: 630px; 
+	float: left; 
+	padding-left: 5%; 
+	padding-right: 600px; 
+	margin-top: 45px;
+} 
+ul#nav {
+	list-style-type: none;
+	background-color: white;
+	position: fixed;
+	width:250px;
+    	margin: 0;
+	padding-left:0;
+	padding-top: 260px;
+	height: 100%;
+	
 }
 
-#container {
-    min-height:100%;
-    position:relative;
-}
-/* nav */
-#header {
-    color:white;
-    background:black;
-    text-align:center;
-}
-#icon {
-    display: block;
-    margin: 0;
-    padding-top:7px;
-    padding-bottom:7px;
-}
-#icon:hover {
-    transform: scale(1.02, 1.02);
-    opacity: 0.9;
-}
-/* banner */
-#banner {
-    padding-top:10px;
-    padding-bottom:40px;
-    height:500px;
-}
-#logo {
-    display: block;
-    margin: 0 auto;
-    padding-top:10px;
-    padding-bottom:10px;
-}
-#logo:hover {
-    transform: scale(1.02, 1.02);
-    opacity: 1;
-}
-/* about */
-#about {
-    padding:50px;
-    background:rgba(255, 255, 255, 0.85);
-    height:auto;
-    color: black;
-    text-align: center
+ul#nav li {
+	text-align: center;
+	padding-top : 50px;
+	padding-bottom: 20px;
+
+} 
+ul#nav li a {
+	color: black;
+	text-align: center;
+	padding: 0;
+	text-decoration: none;
+	font-weight: 500;
 }
 
-.about_title{
-    font-size: 4em;
-    text-align:center;
-    padding-top: 0.2em;
-    text-transform: uppercase;
-    margin: 0;
-    font-weight: 500;
+
+ul#nav li a:hover {
+	border-bottom: 2px solid #5a4ce2;
 }
-.about_subtitle{
-    font-size: 2em;
-    text-align:center;
-    padding-top: 0.2em;
-    margin: 0;
-    font-weight: 400;
+
+ul#links{
+	list-style-type: none;
+}
+ul#links li {
+	padding-top: 8px;
+}
+
+
+#logo{
+	position: fixed;
+	top: 40px;
+	padding-left: 8px;
+}
+#resume{
+	position:fixed;
+	top:583px;
+	left: 94px;
+}
+#resume:hover{
+	border-bottom: 2px solid #5a4ce2;
+}
+#soc{
+	position:fixed;
+	top:683px;
+	left: 35px;
+}
+.icon{
+	padding-left: 10px;
+}
+.icon:hover{
+	transform: scale(1.2);
+}
+
+.whi {
+	background-color: rgb(247, 242, 251);
+	margin: 50px;
+	padding: 60px 20px 30px;
+	width: 135%;
+	height: 500px;
+}
+.whit {
+	margin: 50px;
+	padding: 60px 20px 30px 28px;
+	width: 135%;
+	height: 500px;
+}
+#one{
+	text-align: center;
+	font-family: 'Berkshire Swash';
+}
+.name{
+	font-family: 'Great Vibes' ;
+	font-size: 15em;
+	margin: 0;
+}
+#bout{
+	float: right;
+	padding-right: 90px;
+	width:40%;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 170%;
 }
 #picme {
-    border-radius: 50%;
-}
-.fa {
-    padding: 20px;
-    width: 30px;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-.fa-github {
-    background: grey;
-    color: white;
+    	border-radius: 50%;
+	margin-top:70px;
+	margin-left: 120px;
 }
 
-/* background */
-#backgrnd {
-    padding:10px;
-    background:rgba(0, 0, 0, 0.85);
-    height:600px;
-    color:#D9DAED;
+#changing{
+	z-index: -1;
+	top: 40px;
+	font-family: 'Berkshire Swash';
+	font-size: 1.5em;
 }
-.smoltitle{
-    font-size: 3em;
-    text-align:center;
-    padding: 1em 800px 0.2em 300px;
-    margin: 0;
-    font-weight: 300;
-    width: 5%;
+.wings{
+	position: absolute;
+	z-index:-1;
+	height: 230px;
+	top:430px;
 }
-.column {
-    float: right;
-    padding: 5px;
+#lwin{
+	left: 340px;
 }
-.right {
-    text-align: left;
-    padding: 40px 100px 10px;
-    width: 800px;
+#rwin{
+	left: 850px;
 }
-/* projects */
-#projects {
-    padding:10px;
-    background:rgba(255, 255, 255, 0.85);
-    height:400px;
-    padding-bottom:60px;  
+.title{
+	font-family: 'Berkshire Swash';
+	text-align: center;
+	font-size: 2em;
+	margin-top: 0;
+	margin-bottom: 20px;
 }
-.colpic{
-    padding-left: 20px;
-    width:20px;
+#edu{
+	padding-left: 50px;
 }
 
-
-/* footer */
-#footer {
-    height: auto;
-    padding: 1.5em 0;
-    background:#222222;
-    text-align:center;
-    color:white;
+.skol{
+	padding: 10px 0px 40px 50px;
+	line-height: 170%;
 }
+.lef{
+	width:40%;
+	float: left;
+	padding-left: 10px;
+}
+
+.rig{
+	width:40%;
+	float: right;
+	padding-right: 10px;
+}
+.container {
+	width: 100%;
+	height: 30px;
+	background-color: #ddd;
+}
+
+.skills {
+	text-align: right;
+	padding-right: 10px;
+	line-height: 30px;
+	color: white;
+	background-color: #5a4ce2;
+}
+.py {width: 70%;}
+.ja {width: 20%;}
+.ht {width: 70%;}
+.js {width: 30%;}
+.gi {width: 50%;}
+.ps {width: 80%;}
+.fc {width: 80%;}
+.ae {width: 60%;}
+.wp {width: 60%;}
+.d3 {width: 30%;}
+
