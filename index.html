@@ -2,75 +2,164 @@
 <html lang="en.us">
     
 <head>
-    <!-- Hello this is the title -->
-    <title>Ellen Li</title>
+    	<!-- Hello this is the title -->
+	<title>Ellen Li</title>
     
-    <!-- This is to make sure scaling doesnt get messed -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    	<!-- This is to make sure scaling doesnt get messed -->
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- This is CSS!-->
-    <link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<!-- This is CSS!-->
+    	<link rel="stylesheet" href="styles.css">
 
 </head>
-    
-<body>
+	
+<body> 
+	<ul id="nav"> 
+		<li> <a href="#two">ABOUT</a> </li> 
+		<li> <a href="#three">EDUCATION</a> </li>
+		<li> <a href="#four">SKILLS</a> </li>
+		<div id="logo">	
+			<a href="#one"><img id=logo src="elogogogo.png" style="height:220px">
+			</a>
+		</ul>
+		
+	<div id="resume">
+		<a href="ellen_li_resume.pdf" target="_blank" style="text-decoration: none; color: black">RESUME</a> 
 
-<div id="container">
-	
-    <section id="header">
-        <img src="LNicon.png" style="max-width:5%;height:auto;" id="icon">
-    </section>
-	
-    <section id="banner">
-        <img id="logo" src="elogogogo.png" style="width:35%;" >
-        </section>
-	
-    <section id="about">
-	<p class="about_title">HI THERE!</p>
-	<p class="about_subtitle">My name is Ellen Li</p>
-        <br>		
-		<p> I am a first year Software Engineering student at the University of Ottawa,<br> who is driven by a never-ending curiosity and an affinity for learning about anything and everything. 
-		</p>
-		<img id="picme" src="picofme.JPG"  style="height:25%; width: 20%">
-		<div id="socials">
-		<a href="https://www.linkedin.com/in/ellenli030/" class="fa fa-linkedin"></a>
-		<a href="https://github.com/ellenli030" i class="fa fa-github" aria-hidden="true"></a>
 		</div>
-    </section>
-	
-    <section id="backgrnd">
-  		<p class="smoltitle">Education</p>
-  		<div class="column right"><h3>University of Ottawa</h3><br>
-		Bachelor of Applied Science - BASc Software Engineering (Extended French Stream)<br>(CO-OP)
-		<p>2017-2022</p>
+	<div id="soc">		
+		
+		<a href="https://www.linkedin.com/in/ellenli030/" target="_blank" ><img class="icon" src="Linkedin-1-icon%20copy.png" style="height:30px"></a>
+		<a href="https://github.com/ellenli030" target='_blank' ><img class="icon" src="git.png" style="height:30px"></a>
+		<a href="mailto:eli030@uottawa.ca?Subject=You're%20Hired!" target="_top"><img class="icon" src="Mail-icon.png" style="height:30px"></a></a>
+		<a href="https://blognaturallog.wordpress.com" target="_blank"><img class="icon" src="wrdprs.png" style="height:30px"></a>
+		
 		</div>
-		 <div class="column right"><h3>Colonel By Secondary School</h3><br>
-		International Baccaleaureate Diploma Programme,  
-		French Immersion Diploma<br> Honour Society, Silver Medal, Ontario Scholar<br>+200 hours of community service<br>
-		<p>2013-2017</p>
-	    </div>
-    </section>
 	
-    <section id="projects">
-		<p class="smoltitle">Projects</p>
-			<!--
-  		<div class="colpic">
-			<img src="maxcaplogogo.png" style="height:100px">
-			</div> -->
-  		<div class="column right"><h3>Maxcap</h3><br>
-		Won the University of Ottawa Software Engineering Startup Pitch Competition<br>
-		<p>Nov 2017</p>
-		</div>
-	</div>
-    </section>
 	
-    <section id="footer">
-    Ellen Li 2017!
-    </section>
+	<div id="one" class="panel">
+		<div class="whit">
+			<h2>Hello, I'm</h2>
+			<h1 class="name">Ellen Li.</h1>
+			<span id="changing"></span>
+			<img id="lwin" class="wings" src="leafleft.png">
+			<img id="rwin" class="wings" src="leafright.png">
+			</div>
+		</div> 
+	<div id="two" class="panel">
+		<div class="whi">
+			<p class="title">About</p>
+			<img id="picme" src="picofme.JPG" style="height: 200px">
+			<div id="bout">
+				<p>Hello! <br>My name is Ellen and I am currently a first year Software Engineering student at the University of Ottawa.<br> I am passionate about designing, learning new things and discovering new technologies. Feel free to send me a message saying hi!</p>
+			</div>
+			</div>
+		</div> 
+	<div id="three" class="panel">
+		<div class="whi">
+			<p class="title">Education</p>
+			<div id="edu">
+			<h3>University of Ottawa</h3><p class="skol">Bachelor of Applied Science - BASc Software Engineering (Extended French Stream)<br>(CO-OP)<br>2017-2022</p>
+			<h3>Colonel By Secondary School</h3><p class="skol">International Baccaleaureate Diploma Programme,  French Immersion Diploma<br>Honour Society, Silver Medal, Ontario Scholar<br>+200 hours of community service<br>2013-2017</p>
+				</div>
+			</div>
+		</div> 
+	<div id="four" class="panel">
+		<div class="whi">
+			<p class="title">Skills</p>
+			
+			<div class="lef">
+			<p>PYTHON</p>
+			<div class="container">
+				<div class="skills py">70%</div>
+				</div>
+
+			<p>JAVA</p>
+			<div class="container">
+				<div class="skills ja">20%</div>
+				</div>
+
+			<p>HTML&amp;CSS</p>
+			<div class="container">
+				<div class="skills ht">70%</div>
+				</div>
+
+			<p>JAVASCRIPT</p>
+			<div class="container">
+				<div class="skills js">30%</div>
+				</div>
+				
+			<p>GIT</p>
+			<div class="container">
+				<div class="skills gi">50%</div>
+				</div>
+			</div>
+			<div class="rig">
+			<p>ADOBE PHOTOSHOP</p>
+			<div class="container">
+				<div class="skills ps">80%</div>
+				</div>
+
+			<p>FINAL CUT PRO X</p>
+			<div class="container">
+				<div class="skills fc">80%</div>
+				</div>
+
+			<p>AFTER EFFECTS</p>
+			<div class="container">
+				<div class="skills ae">60%</div>
+				</div>
+
+			<p>WORDPRESS</p>
+			<div class="container">
+				<div class="skills wp">60%</div>
+				
+			<p>3D PRINTING</p>
+			<div class="container">
+				<div class="skills d3">30%</div>
+				</div>
+			</div>
+		
+			</div>
+		</div> 
+
+	<!-- Here goes a bit of jQuery!-->
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#nav a").bind("click",function(event){ event.preventDefault(); 
+			var target = $(this).attr("href"); 
+			$("html, body").stop().animate({ 
+				scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1000); 
+			}); 
+		}); 
+		
+	</script>
+	<script>
+	var words = new Array('An Aspiring Software Engineer.','A Designer.', 'A Creator.','A Dreamer.', 'An Avid Learner.');
+	var i = 0;
+		setInterval( function(){
+			$( '#changing' ).empty().append( words[ i ] );
+			if( i < words.length ) {
+				i++;
+			} else {
+				i = 0;
+			}
+		}, 3000 );
+	</script>
+	<script type='text/javascript' src='jquery.mousewheel.min.js'></script>
+	<script>
+		$(function() {
+			$("html, body").mousewheel(function(event, delta) {
+				this.scrollLeft -= (delta * 10);
+				event.preventDefault();
+			});
+		});
+
+	</script>
 	
-</div>
-</body>
+	
+	</body>
 </html>
    
