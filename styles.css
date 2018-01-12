@@ -70,7 +70,7 @@ ul#links li {
 #resume{
 	position:fixed;
 	top:583px;
-	left: 94px;
+	left: 6.8%;
 }
 #resume:hover{
 	border-bottom: 2px solid #5a4ce2;
@@ -78,7 +78,7 @@ ul#links li {
 #soc{
 	position:fixed;
 	top:683px;
-	left: 35px;
+	left: 2.2%;
 }
 .icon{
 	padding-left: 10px;
