@@ -27,7 +27,7 @@ ul#nav {
 	list-style-type: none;
 	background-color: white;
 	position: fixed;
-	width:250px;
+	width:18%;
     	margin: 0;
 	padding-left:0;
 	padding-top: 260px;
@@ -191,4 +191,3 @@ ul#links li {
 .ae {width: 60%;}
 .wp {width: 60%;}
 .d3 {width: 30%;}
-
