@@ -80,8 +80,8 @@ ul#links li {
 	padding-left: 8px;
 }
 #resume{
-	position: absolute;
-	top:56%;
+	position:relative;
+	top:40%;
 	left: 38%;
 }
 #resume:hover{
@@ -108,9 +108,9 @@ ul#links li {
 }
 .whit {
 	margin: 50px;
-	padding: 60px 20px 30px 28px;
+	padding: 5% 20px 30px 28px;
 	width: 135%;
-	height: 500px;
+	height: 100%;
 }
 #one{
 	text-align: center;
@@ -150,10 +150,10 @@ ul#links li {
 	top:430px;
 }
 #lwin{
-	left: 340px;
+	left: 5%;
 }
 #rwin{
-	left: 850px;
+	left: 13.3%;
 }
 .title{
 	font-family: 'Berkshire Swash';
@@ -164,6 +164,7 @@ ul#links li {
 }
 #edu{
 	padding-left: 50px;
+	width: 80%;
 }
 
 .skol{
