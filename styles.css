@@ -196,12 +196,12 @@ ul#links li {
 	background-color: #5a4ce2;
 }
 .py {width: 70%;}
-.ja {width: 20%;}
-.ht {width: 70%;}
-.js {width: 30%;}
-.gi {width: 50%;}
+.ja {width: 80%;}
+.ht {width: 90%;}
+.js {width: 60%;}
+.gi {width: 80%;}
 .ps {width: 80%;}
 .fc {width: 80%;}
 .ae {width: 60%;}
-.wp {width: 60%;}
-.d3 {width: 30%;}
+/* .wp {width: 60%;}
+.d3 {width: 30%;} */
