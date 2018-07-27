@@ -191,9 +191,9 @@ ul#links li {
 .skills {
 	text-align: right;
 	padding-right: 10px;
-	line-height: 30px;
-	color: white;
-	background-color: #5a4ce2;
+  height: 30px;
+  background-color: hsla(246, 69%, 59%, 0.74);
+  z-index: 1;
 }
 .py {width: 70%;}
 .ja {width: 80%;}
@@ -203,5 +203,4 @@ ul#links li {
 .ps {width: 80%;}
 .fc {width: 80%;}
 .ae {width: 60%;}
-.wp {width: 60%;}
 .d3 {width: 30%;}
